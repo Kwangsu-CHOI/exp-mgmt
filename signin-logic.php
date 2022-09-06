@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
           $login_result = mysqli_query($connection, $login_qeury);
 
         }
-        header('location: ' . ROOT_URL . 'index.php');
+        header('location: ' . ROOT_URL . 'signup-page.php');
         exit();
       } else {
         $_SESSION['signin'] = "Please Check Your Login Credentials";
@@ -43,7 +43,7 @@ if(isset($_POST['submit'])) {
   // redirect when problem occurs
   if(isset($_SESSION['signin'])) {
     $_SESSION['signin-data'] = $_POST;
-    header('location: ' . ROOT_URL . 'signin-up.php');
+    header('location: ' . ROOT_URL . 'signin-page.php');
     exit();
   }
 
