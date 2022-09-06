@@ -142,8 +142,7 @@ if(mysqli_num_rows($result)>0) {
 
 
   //Second Chart
-  const labels = <?= json_encode(array_values($date)) ?>;
-  // const labels = <?= json_encode(array_values(array_unique($date))) ?>;
+  const labels = <?= json_encode(array_values(array_unique($date))) ?>;
   const dataTwo = <?= json_encode($fin) ?>;
 
   const datas = {
