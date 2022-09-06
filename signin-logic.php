@@ -43,11 +43,11 @@ if(isset($_POST['submit'])) {
   // redirect when problem occurs
   if(isset($_SESSION['signin'])) {
     $_SESSION['signin-data'] = $_POST;
-    header('location: ' . ROOT_URL . 'signin.php');
+    header('location: ' . ROOT_URL . 'signin-page.php');
     exit();
   }
 
 } else {
-  header('location: ' . ROOT_URL . 'signin.php');
+  header('location: ' . ROOT_URL . 'signin-page.php');
   exit();
 }
