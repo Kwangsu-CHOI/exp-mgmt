@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
           $login_result = mysqli_query($connection, $login_qeury);
 
         }
-        header('location: ' . ROOT_URL . 'signup-page.php');
+        header('location: ' . ROOT_URL . 'index.php');
         exit();
       } else {
         $_SESSION['signin'] = "Please Check Your Login Credentials";
