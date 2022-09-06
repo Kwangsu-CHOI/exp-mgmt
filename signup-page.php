@@ -1,6 +1,6 @@
 <?php
 include 'config/database.php';
-
+phpinfo();
 $firstname = $_SESSION['signup-data']['firstname'] ?? null;
 $lastname = $_SESSION['signup-data']['lastname'] ?? null;
 $username = $_SESSION['signup-data']['username'] ?? null;
