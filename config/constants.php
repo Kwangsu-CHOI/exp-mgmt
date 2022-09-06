@@ -2,7 +2,7 @@
 // ob_start();
 session_start();
 // ob_flush();
-define('ROOT_URL', 'https://savemywallet.herokuapp.com/savemywallet/');
+define('ROOT_URL', 'https://savemywallet.herokuapp.com/');
 define('DB_HOST', 'us-cdbr-east-06.cleardb.net');
 define('DB_USER', 'b83d6c7735ada6');
 define('DB_PASS', '83047b42');
