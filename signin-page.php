@@ -1,6 +1,6 @@
 <?php
 include 'config/database.php';
-
+phpinfo();
 $username_email = $_SESSION['signin-data']['username_email'] ?? null;
 $password = $_SESSION['signin-data']['password'] ?? null;
 
