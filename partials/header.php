@@ -2,11 +2,11 @@
 // require 'C:\xampp\htdocs\exp-mgmt\config\database.php';
 require './config/database.php';
 
-if(empty($_SESSION['user-id'])) {
+// if(empty($_SESSION['user-id'])) {
   
-  header("location: " . ROOT_URL . "signin-page.php");
-  exit();
-} 
+//   header("location: " . ROOT_URL . "signin-page.php");
+//   exit();
+// } 
 
 //get current user
 if (isset($_SESSION['user-id'])) {
